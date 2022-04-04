@@ -5,8 +5,6 @@ import TransactionListItem from "components/TransactionListItem";
 const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
 
-  console.log("transactions", transactions);
-
   return (
     <>
       <h3>History</h3>
